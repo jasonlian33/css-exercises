@@ -48,18 +48,14 @@ a {
   color: rebeccapurple;
 }
 
-.header-left{
+.header-left, .header-right{
   display: flex;
-  justify-content: flex-start;
-}
-.links{
-  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
-.header-right{
+.links{
   display: flex;
-  justify-content: flex-end;
-  gap: 16px;
 }
 
 ul {
