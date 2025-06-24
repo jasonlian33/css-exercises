@@ -48,11 +48,15 @@ a {
   color: rebeccapurple;
 }
 
+.header-left{
+  display: flex;
+  justify-content: flex-start;
+}
 .links{
   display: flex;
 }
 
-.right-stuff{
+.header-right{
   display: flex;
   justify-content: flex-end;
   gap: 16px;
