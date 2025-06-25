@@ -12,11 +12,25 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding-bottom: 32px;
 }
 
 .image-line{
   display: flex;
   justify-content: space-evenly;
+  gap: 52px;
+}
+
+.text-line{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text{
+  width: 200px;
+  text-align: center;
+  text-wrap: wrap;
 }
 
 /* do not edit this footer */
